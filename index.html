@@ -17,13 +17,13 @@
     </header>
     <main>
         <!--TODO: add placeholders-->
-        <form action="/send-form.php" method="post" target="_blank">
+        <form action="/send-form.php" method="post" target="_blank" autocomplete="off">
             <fieldset class="form-section" id="user-info">
                 <legend class="form-title">Personal Details</legend>
 
                 <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name" pattern="^[A-Za-z]+$" title="This field accept letters only." required>
                 </div>
 
                 <div class="form-group">
