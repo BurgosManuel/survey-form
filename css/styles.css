@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(155, 84, 155);
+    font-family: 'Readex Pro', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    border: solid 1px white;
+}
+
+.form-section {
+    border: solid 1px black;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.form-title {
+    margin: auto;
+}
+
+.form-group {
+    text-align: left;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+input {
+    margin-bottom: 25px;
+}
+
+.text-field {
+    width: 100%;
+}
+
+.btn {
+    margin-right: 10px;
+}
