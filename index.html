@@ -17,8 +17,8 @@
 </head>
 <body>
     <header>
-        <h1 class="font-24">Tell us your experience!</h1>
-        <p>Thanks for taking the time to fullfil our survey, this help us a lot!</p>
+        <h1 class="header-title">Tell us your experience!</h1>
+        <p class="header-sub">Thanks for taking the time to fullfil our survey, this help us a lot!</p>
     </header>
     <main>
         <!--TODO: add placeholders-->
@@ -27,22 +27,22 @@
                 <legend class="form-title">Personal Details</legend>
 
                 <div class="form-group">
-                <label for="name">Name:</label>
+                <label class="form-title" for="name">Name:</label>
                 <input class="text-field" type="text" name="name" id="name" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Please write a valid name." required>
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email:</label>
+                    <label class="form-title" for="email">Email:</label>
                     <input class="text-field" type="email" name="email" id="email" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Please use a valid email." required>
                 </div>
 
                 <div class="form-group">
-                    <label for="age">Age:</label>
+                    <label class="form-title" for="age">Age:</label>
                     <input class="text-field" type="number" name="age" id="age" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="role">Which option describes you the best?</label>
+                    <label class="form-title" for="role">Which option describes you the best?</label>
                     <select class="text-field" name="role" id="role" required>
                         <option value="" selected disabled>Select one...</option>
                         <option value="student">Student</option>
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="user-like">What is your favorite part of our service?</label>
+                    <label class="form-title" for="user-like">What is your favorite part of our service?</label>
                     <select class="text-field" name="user-like" id="user-like" required>
                         <option value="" selected disabled>Select one...</option>
                         <option value="quality">Quality of Product</option>
@@ -73,14 +73,14 @@
                 </div>
 
                 <div class="form-group">
-                    <label>What would you like to see improved? <small>(Check all that apply)</small></label>
+                    <label class="form-title" >What would you like to see improved? <small>(Check all that apply)</small></label>
                     <label><input class="btn" name="improve" value="country-availability" type="checkbox">Country Availability</label>
                     <label><input class="btn" name="improve" value="models-designs" type="checkbox">New Models/Designs</label>
                     <label><input class="btn" name="improve" value="website-app" type="checkbox">Website/App Performance</label>
                 </div>
 
                 <div class="form-group">
-                    <label for="comment">Any other comment or suggestions?</label>
+                    <label class="form-title" for="comment">Any other comment or suggestions?</label>
                     <textarea class="input-textarea" name="comment" id="comment" placeholder="(Optional)" cols="30" rows="5"></textarea>
                     <!--TODO: remove rezise feature in textarea-->
                 </div>
