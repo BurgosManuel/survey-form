@@ -99,7 +99,7 @@ select {
 .btn {
     display: inline-block;
     margin-right: 10px;
-    transform: scale(1.3)
+    transform: scale(1.3);
 }
 
 textarea.text-field { padding-right: 5px; }
